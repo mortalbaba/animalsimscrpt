@@ -1,54 +1,74 @@
-local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-function FFwzkMGhqehBkOmMmYw(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
-data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
 
-
- 
-
-
-local b=FFwzkMGhqehBkOmMmYw('GSCkSepqHWWLjkEFLibVelzIXlUvBHeLWdfdNWCYmrqacjdUvNzjZSgQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLw==')
-function JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(data) m=string.sub(data, 0, 55) data=data:gsub(m,FFwzkMGhqehBkOmMmYw('TKUniJCVvriphGBCBxUtvDSMcuFHTTHoPILlyABAHkWBKUKTPGfeNYf'))
-
-data = string.gsub(data, FFwzkMGhqehBkOmMmYw('NjPhENahYKhNEzYyRsniHirdMKjEjLwDYTaeBJuyPKIRoavUbZaeaYTW14=')..b..FFwzkMGhqehBkOmMmYw('yzDjMHhAftSStdKBOUxBsjQCSJTMOiSFqTUNwDumxMUkHDPrfunVWqNPV0='), FFwzkMGhqehBkOmMmYw('kxPMJvrNzSlKBCnobSZvRklRKIhMEOBYHPMGmjKIaOCUEUtbWDuROho')) return (data:gsub(FFwzkMGhqehBkOmMmYw('TsjzxDupxSbXjJRcAmiNRXoeYcgkoKfiIOoayxYAHKxYSzZkxjcbzRhLg=='), function(x) if (x == FFwzkMGhqehBkOmMmYw('QHUtqbHtKEBYMYXxFGkmPXGOwNfFgkyQrUEBkvuIsQSSYStnMQGCJVgPQ==')) then return FFwzkMGhqehBkOmMmYw('DhioVQYRZPuPgqvNWhzONvQqSlBgRtJfefSVdlEoNuRRvHsJAwBCvmp') end local r,f=FFwzkMGhqehBkOmMmYw('WFmwTiSKffqVhZRvSdSArFzMBgXmsBlpCgtexwJEmFVvsJzTexRzVYn'),(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and FFwzkMGhqehBkOmMmYw('eaZDlzLjmplRMdUaFQLFTILvgIXlQNPKAoqBmMpidIatgnUsqSUNmheMQ==') or FFwzkMGhqehBkOmMmYw('QLbIwGuYEtIijgJhAQVaXXGffUqqBGkPnKoQMhgTdFcmdOvJrWHLFWcMA==')) end return r; end):gsub(FFwzkMGhqehBkOmMmYw('TkURTsCFczogKQDzlqQFzGJJKfDTXrXGSMSfVLGpYzYkGurdCFdufIAJWQlZCVkPyVkPyVkPyVkPyVkPyVkPw=='), function(x) if (#x ~= 8) then return FFwzkMGhqehBkOmMmYw('RlbCSuyUUbcyENxPFfpNpQUhhIXVyywYfaiOXkvydiTrkMTWtEChWQB') end local c=0 for i=1,8 do c=c+(x:sub(i,i)==FFwzkMGhqehBkOmMmYw('EXCaUyvmYAhTdCYiteXYSqXAChYNARxdoUaLjizryuJCZpSHEcjSnkDMQ==') and 2^(8-i) or 0) end return string.char(c) end)) end
-
-
- 
-
-
-local b=JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MycrpxFeBVkYqLDruCGgkvbDAWDNqdKbrIjGdQHjJmFRokPUaRkAiObUnRQRmNDVm96bG5XaGFGaEhmQnp0a2V6WFNZVUFra0NBZ3RuV2FLanVyeEFWd3lMekVaaGhQU1FVSkRSRVZHUjBoSlNrdE1UVTVQVUZGU1UxUlZWbGRZV1ZwaFltTmtaV1puYUdscWEyeHRibTl3Y1hKemRIVjJkM2g1ZWpBeE1qTTBOVFkzT0Rrckx3PT0='))
-function TBymnOMwUuEamXbFopmZZtDyv(data) m=string.sub(data, 0, 55) data=data:gsub(m,JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('bXqpkkqBwjnwymXGKTJKPIzGIRPUATsVijzqXmNeHPmYLwVHOeHinCWcGdYUEd1TGFKWXd1d0NVZ1lvSGl1YlZWb2lNemVFWXZhZW5FZGZiZEhoaWd6dVNJQXdRYm9DQQ==')))
-
-data = string.gsub(data, JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('lzSWxDPZBrAIqXhcPubRDxAgytdJDqfgAzmAPfpNhFQnzWQjnrRlXqgeElYSHRFbVdNWGJXcnhhRm5TYVlRd1pwRHhmS2x5T3VzeG5lUmRlYmZGQWRId1dTVHJBS2REdVcxND0='))..b..JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('qWOhpUMqgdlBbtUKeTrVBynCROCbiMteHLCNwULokNPtcxnyUSUJtgxdENndVJoVHdzWGZESlhhVkpYSEJhYnp4YlhzT3R6cFpRUkNUeXRKa3FZZkNsd2ZveXBwR1B2SFBWMD0=')), JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('OAuiSFTvpgeAXWtkVRMEiaNhIXPWzZGmxeMyVCPdSnjiUQVFKGfFkMGUllMUEtVV2xVYWxDTVRBcFBzRFJreHVFTE9XTEFrS3hOUHVsU2pueVlOT1N5RFNmZVR4UG9qaA=='))) return (data:gsub(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('wjqfoVROPuwcFGQVRATOFJnNVWAVpjFyeyLEgtzoYVROXFPXpZBOmExSkJYU3lIWU1VZVppWmZUbnRmYVNCQWZVZHJ2U2daYkRnbFNCZVNzS1ZjTVdBeUxjTklwT0x5SExnPT0=')), function(x) if (x == JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('DDgLnjcUYfctCzEOKWpWKMAjuZmqdoYUIDSLdmxfZUhbwMRkRUXalnNQWhxT3JIYWNKa1BVekVpQkR6TEtBZWtuV0poamdaZXJKTHhrSGlkdkRlYUhIZ2dPU1RWRFRLQ1BRPT0='))) then return JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('EGNhNgLYwjuiQyHBiUhPHVzRUDZGUdMIbdSEmdnJQrBxTJxEyLNAvjlYXR0YU9zZEtHdElPSW5pZWJ3R1lqWFp2SkxhektWSG5aeG9FR2hQelNjT2VYdUtzS1pCbUxYdA==')) end local r,f=JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('VduwsxFzgebUWQCmjgmrsmYxMUpzbuuEtNbGQbhnSmEYhqzxksDhqlAeHdJd3lMcWRZVHhqdFJka1VsZnV0YkVzTk9mQm5CQVdNQUVpQmNtQ2hqWHNzYWVneVRpQXRKRw==')),(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('QGVYqxUDSmsdAXZOsscgwHMchULSKCDWEEZaTJcrmeBuyvdbGZLmaWeVXFwWmpsSXZDQURMVXV5aVpBTkNjZWpCb1JucFNETkFha2NTd2xrelBUU2VSa1pGdGdwWmxjR01RPT0=')) or JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('zRnSTpwPcpemJBvAOnAnsUjelQVuDooYgaUHOEpklIHOfsFUfiwTPGmaU14Z1Z0d3VnY2JXc3dvVEJxekt2QlJ2ZGpWbGRvd3doVVVyR3hOS2FlWldBV3l3alhlVmlibk1BPT0='))) end return r; end):gsub(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('rYpRAaMwtcqVodzrDskOlBlrLHikbPlsEPlxFLcHhZeHrqJDaPhIKIncmZwVmRMTXR5S25NYVJNcldVQWt6Wld5TU1TelliVlBMUW5Nc2NlRUZtZ0trSURzbEpPS01HdkpXUWxaQ1ZrUHlWa1B5VmtQeVZrUHlWa1B5VmtQdz09')), function(x) if (#x ~= 8) then return JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('CASmOrnOhBozLUmKKfFvFKyJJozvxeJhwNVrbzvtdSRvGOFlLhQOtrBakFJS0JjakdMTnZRWG9NZW1SZlFOWWhQaEtkcWJhT3BPaGVIZFFaeE5ZQVBTQlVqUmVTTUhxRQ==')) end local c=0 for i=1,8 do c=c+(x:sub(i,i)==JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('WSWXRypdFmwYLbsnqppBCEjVehvrRxzYoPhBjlpmEcnxzadTJPDqAuMS0hnY21EekRlYkxIUkNhQUlJb0ZxbldxZVVhbllUQ3JLS0dySFRPeEZ5V25HSGJ6dEJCUlBpWU1RPT0=')) and 2^(8-i) or 0) end return string.char(c) end)) end
-
-
- 
-
-
---// Mobil uyumlu, modern, kaydırılabilir GUI
+local _9bpq69aih = function()
+    --// Mobil uyumlu, modern, kaydırılabilir GUI
 --// Made by -MortalHere
 
-local ScreenGui = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('oVCzAMhEXuyBPqqBltxkjZXAuzMJVDKrVQOQHEYkuEDawwJRWcPlBhqblFRdGNzdmhWZGxUcW56eENEQ1FJeE5xUE1jREVQeVdMQmxKS3JtZXdzbEF6aWlIS2VhTWlIamQxcERVVlpXVW5CblUyRlNWVlZvVVhwbFlsaENlWEI2YW1oRVJIUlhVVkZRVFhSR1ozSnJVbTlCYlU1MlkwWjFSa2hIYzA5bFJGVXlUbmxhVjFaMVVqTldjQT09'))))
-ScreenGui.Name = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('oeQVFTBBJErnqLJUkHEtbCGDqPRagVzlzBnLEPkPHzXtnIqhSPezyKeYXVWQUtDcHpaTmtXS2hPR3hOZkxkbWhwUExEeXFWRVB1U01seGhpQkNqWXJmTlBOSUdZZlBuVmNYTndSV1ZqYW1aQmNHMW9jVzk1UVhCWGFFWjNkbmRNV25KQ2NHNWpjM0ZYZW1scGRrTlJVbE5zY1hsbmVtaDJWMHh1YWxSelRGUlhPWGxrUjBaelVqTldjQT09')))
+local ScreenGui = Instance.new((function()
+        local a={1116,1324,1519,1350,1350,1467,960,1558,1402};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
+ScreenGui.Name = (function()
+        local a={1038,1480,1519,1545,1298,1441,960,1558,1402};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = game.CoreGui
 
 -- Toggle Butonu
-local ToggleBtn = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('EOHqmaTIPgbywntRIwTmszgmfnPNjleEmNFDOwhgqcrMCxfdZXarYvyWnpqUkNZaHRycEN4YWNkRVpaWVlOQnB6WU1wWmFncXhNdVVtekhlY2h1U0N3eExGc05sSlJsT1kwWnJlbTlQUlcxV1JFZGFkbWR6V1dOdWNVbHFhVXBxVTNsRmQyTnRZbGhrWVVaWVUweHVTMUJrY0U5blFrVjJSbWxyVldwaWRGWkhWalJrUlVveFpFaFNkbUpuUFQwPQ=='))))
+local ToggleBtn = Instance.new((function()
+        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 ToggleBtn.Size = UDim2.new(0, 120, 0, 40)
 ToggleBtn.Position = UDim2.new(1, -130, 0, 10)
 ToggleBtn.BackgroundColor3 = Color3.fromRGB(45,45,45)
-ToggleBtn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('DdZFvJfizULcvKFpRKJoJHHVBGZWSvyHwZtBRPLIsKZSQFzNkDkkFWyRkFjTUhXelRzdEVBUlRpZEhkYU5yYmh0REVib05HbHRrdm1LcGN6c2pqaWp6QmN3eVRQanRDeWNrOXpaSGRvZFhGQ1ZrSkJjWEpZVDBKV2IycG1abWRFUm5SQ1YwUjZlWE5TVFdsNFdVVkpkbTV4WVZGdWRHcFFjMGhhVEZWeVN6aEtLMVJuYVVKT1dsYzFNUT09')))
+ToggleBtn.Text = (function()
+        local a={719678,734719,453,1038,1350,1467,1558};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
 ToggleBtn.TextColor3 = Color3.fromRGB(255,255,255)
 ToggleBtn.Font = Enum.Font.GothamBold
 ToggleBtn.TextSize = 16
 ToggleBtn.Parent = ScreenGui
-local TCorner = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('TUgXRefRANwNXLCicUcavzLlIaWleyZpGEwiUzNuvoRuAESLaecRgbob2xuQVllSFJTbXV4UFBnc2hycllQTWFJaFlWbkJjUlNqbURLY0NMclh4U0x4aWhJa3JLSmRHUFoyUkdURWh5VkVSc1MyeENkVTVhZG5sd1UyRk5ZbUZTY1ZsM1FtSmFkbkJRYm5SclNHRlhSMWhKV1hOQ2RucFZRV2hVVkd0TmVGWlZiRVJpTTBwMVdsaEpQUT09'))))
+local TCorner = Instance.new((function()
+        local a={1142,986,908,1480,1519,1467,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 TCorner.CornerRadius = UDim.new(0,10)
 TCorner.Parent = ToggleBtn
 
 -- Ana Frame
-local Frame = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('yUZWVlauTvLCcIaCLFEaYKhLnRLBLLqjixCagQWQXsjzkWyqMMtrWmrRFlwU1NLV1J5aWF4aVRYQ0hqSlpXQ0ZlTndlU1ZuQmVkeXpNZERqclFMU3FRQVl3U3liTmthT1lrZE9Sa0ZwYm5KUFJHbDZjbFZKVDJKUWNYaHdkbVZIWWtOSlpWUnhSbFZTWWtOYVdXeG9hMGxQV0dWbGRuUnNZMmxXWlVORFIxSnVTbWhpVjFVOQ=='))))
+local Frame = Instance.new((function()
+        local a={947,1519,1298,1454,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 Frame.Size = UDim2.new(0,260,0,300)
 Frame.Position = UDim2.new(0.5,-130,0.5,-150)
 Frame.BackgroundColor3 = Color3.fromRGB(30,30,30)
@@ -57,25 +77,60 @@ Frame.Active = true
 Frame.Draggable = true
 Frame.Visible = false
 Frame.Parent = ScreenGui
-local UICorner = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('PYFfTHNkvrBIiKLMHuvptsyLUpQBOowECRnUoOwRNmbaVamDvUFKYErR3Z1YWZBYWFiTEpySXRpemNsUGx2QmVhaklSS0Fwb2RqV2hRRXhoT1JJVG5WSWV4RUFYYU5zR2JHeEVjRTFPZVZsdlJsUllZa2wxU0VsclNtdFFkbk5zWlhGdlJrbDJXSGRrWjFSVGJXZG9ZVmg0VkUxNFNYbERjVTFvZFZwTVQxWlZiRVJpTTBwMVdsaEpQUT09'))))
+local UICorner = Instance.new((function()
+        local a={1142,986,908,1480,1519,1467,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 UICorner.CornerRadius = UDim.new(0,15)
 UICorner.Parent = Frame
 
 -- Başlık
-local Title = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MjldxXNOLzGnGoIUrVNaMhmSUYUzmnxvUoSjoXbQUcrMnYNOuiBeYEScXBoRXRwemRURmpyam9oWmtoTnZQQ1BsWnhCbEZibUZYTXF5b3hMRXJEc0RVT1FoUWNpZllRb1JucE5RWEpxVW1wR1dtSjJSWE4zUVhCNFNXSlBUMDVSVVhWa2ExcE5UVXRpYjB4dFMzVm1TMFJRU1VocWRIcGtiVmgwWms5QlNsWkhWalJrUlhob1dXMVdjdz09'))))
+local Title = Instance.new((function()
+        local a={1129,1350,1597,1545,1025,1298,1311,1350,1441};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 Title.Size = UDim2.new(1,0,0,40)
 Title.BackgroundColor3 = Color3.fromRGB(20,20,20)
-Title.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('cTiDxiBsiQkmkaFsKPpYrSkcLxOrqGaWZpxgRinUuircrJvGvyNCgkKUmpJYVBoc0VTeEJmWlZZam1PZ0djWkdEZEZWemhKSExqUXlXSnhtanZ3eWx1b2FmRk5RZXhPZlprVkVURkJoV1dSeWJVVkJaMHBKYlhWSVlWcHhTV2RRY1ZWWFJYTjRWVXhsV25kdVJGWkdWRmRQVFZOUGQycDJSM0pJUzBGWVlWUlhSbXRhVTBKcFpWTkJkRlJYT1hsa1IwWnpVMGRXZVZwUlBUMD0=')))
+Title.Text = (function()
+        local a={1038,1298,1337,1350,453,1311,1610,453,622,1038,1480,1519,1545,1298,1441,973,1350,1519,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
 Title.TextColor3 = Color3.fromRGB(0,200,255)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 18
 Title.Parent = Frame
-local TitleCorner = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MLufFAsBJEzQrmYlxNxYwMzfrVuuPNDBeEqQsWpTYiCxVEblYdeeiYjdEVDYmZZeWhXT0hadkRvYk1oU0haY0VKYWRsZE9zR2lJRmtxQlNYeVFucU5zSVF0d1RTUEpZRVdtWnRVR1Z6YTJWbVFuVkRSRmRPU1dkNFdYWjBlRVpUY2xaUWNXcDNiRWx5V2tSSmVFdEtibmwzWkVoT1FrMU9lV3RSZUVoQ1pWWlZiRVJpTTBwMVdsaEpQUT09'))))
+local TitleCorner = Instance.new((function()
+        local a={1142,986,908,1480,1519,1467,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 TitleCorner.CornerRadius = UDim.new(0,15)
 TitleCorner.Parent = Title
 
 -- Scroll
-local Scroll = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('PyQovSCkXpygePVbWNlhrVVRInsXkYhPuHzKylkxaBbZHBwqwzRYUvFYVNWalhBQkxCTkJ5aGlvdEtyV2N3bkdjRkZXeVhhUVJycEJtQmNiWGZTenVma3FOS1pFc2JXdVIzQjFTV3RPVVdSTWEwNWhSbWhhVjJsblNIWlVibFp4Um5oTGNHSkpVR2x6VlhsT1ZHdExZM2xUUVVKb2JuRnZhM3BsVW1WelRWVXlUbmxpTW5oellWYzFibEp1U21oaVYxVTk='))))
+local Scroll = Instance.new((function()
+        local a={1116,1324,1519,1480,1441,1441,1402,1467,1376,947,1519,1298,1454,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 Scroll.Size = UDim2.new(1,-10,1,-50)
 Scroll.Position = UDim2.new(0,5,0,45)
 Scroll.CanvasSize = UDim2.new(0,0,0,0)
@@ -83,7 +138,14 @@ Scroll.ScrollBarThickness = 6
 Scroll.BackgroundTransparency = 1
 Scroll.Parent = Frame
 
-local UIListLayout = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('CMzHXpCPzIvZzKsMXfbosMFwCHQUKcuwDePlwktpiTYtEPRcVHOcFXGREFoQkZpRlVrbFdweVVRSnJqREhJRE5BemRwV2xsTEtVdEdYSGdndEFHbXRFVlhJTVpQWGN4YVEzUlNRM0ZQZWxwNVEyZElVRzFWUTA5RWJVRnRlVmxuYm1sNVluUjBVa05JVmtoUGVHeHlVSFoyYVhOcVdsZFhhMlpSV25salRWWlZiRTFoV0U0d1ZFZEdOV0l6VmpBPQ=='))))
+local UIListLayout = Instance.new((function()
+        local a={1142,986,1025,1402,1532,1545,1025,1298,1610,1480,1558,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
 UIListLayout.Padding = UDim.new(0,10)
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -94,19 +156,47 @@ UIListLayout.Changed:Connect(function()
 end)
 
 -- Sayfa Yönetimi
-local currentPage = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('dWDfsttfZLTXJTvQGZTevBkUEVikFWmYoBGHUsbkggYFDZmsOyEFSVhakx6QWRDeE1aZHhLdXRQclNJSXBZZXJub3JIUU94U1Ftb1dnaHRJZVhabXNRVGpoSW5WRFhFY2IySkJibGhrY1hoNFdsZHRhMFJ6Y21SM1FVcDBVSGR6ZUV0aFoweENlSGRMZFc5eGIwTjNiWGRqZGsxc1ZuRkJSa3g2ZW1OdVZGUlhSbkJpWnowOQ==')))
+local currentPage = (function()
+        local a={1038,1298,1402,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
 local MainButtons = {}
 local BossButtons = {}
 
 local function SetPage(page)
     currentPage = page
-    for _,v in pairs(MainButtons) do v.Visible = (page==TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('zcxLZwBLhrnIVJHzptpfQqCSyWmrBFKBehJTcbdwsRSMKTicjMPTUkrbGVadUVpWGJTT0tlR29sWXZXYUVwbWlBZkd4Q3hHUVFkT0JWTFJhYkNOUUlUdUdyem9MbU1MVlMxZFViazEzVFhKTmNtMU1hSHBXYjFOT2JrMXVhVzUwWjBOV1FXUmFTV2hOWWxaeFZFMVRaRk5tZWtkdVUzRk5SazVtUlZsdFFsUlhSbkJpWnowOQ==')))) end
-    for _,v in pairs(BossButtons) do v.Visible = (page==TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('URIoyRmMYzcRCEVqxeZkMwPhppDmmbrDjabdjPOwTgZCgcrrueKxtLXVEdtZ0VyYmJwaUxNdW1GSXNYU2ZGS01od2ZORWtWcXJvbkdTRWdZSk1uT3lrd3BUd2ZyTFRsZ2FHbEdURUYyV1hab1NVbHVka3g2WWtWTVVGRk5VVVp0WWt4d1VHWkNkblJQV0ZkU2JtZHdZVXhSUVc5bFYyWnFURUp1UkZodVdsRnRPWHBqZHowOQ==')))) end
+    for _,v in pairs(MainButtons) do v.Visible = (page==(function()
+        local a={1038,1298,1402,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()) end
+    for _,v in pairs(BossButtons) do v.Visible = (page==(function()
+        local a={895,1480,1532,1532};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()) end
 end
 
 -- Buton Oluşturma
 local function CreateButton(text, parentTable, callback)
-    local Button = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('AvRlgoKCZFDkJfTEJOIWFADzqURVuyysYvFIgVaSKyRDeHyQWyUpFmUdk9vQ0VNR0ptdXFVckpMV21UcFJEV1NwUFJLSlBjaXhodXZNS1lpVmJTYmNhdGRhUGxNdkRKSWJIVjVTRTFQWkVkaGFsTnRiVmR3U21SeFlWcElia3RyZW1GeFJIRm1VRlZMWlU1YVIxZHliMFJyWjNCR1ozcDZSMkp3YVVwWFpWWkhWalJrUlVveFpFaFNkbUpuUFQwPQ=='))))
+    local Button = Instance.new((function()
+        local a={1129,1350,1597,1545,895,1558,1545,1545,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
     Button.Size = UDim2.new(0.9,0,0,45)
     Button.BackgroundColor3 = Color3.fromRGB(55,55,55)
     Button.Text = text
@@ -114,7 +204,14 @@ local function CreateButton(text, parentTable, callback)
     Button.Font = Enum.Font.GothamBold
     Button.TextSize = 18
     Button.Parent = Scroll
-    local Corner = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('yqJHmnGxtxcUSajWsnIhbCksEtRDNoxxSmKypCXENokCsrnKzkINPXvZ1hwVUVtV2NCYWdGakFnb3hCUlhySmxZTnpjS01EWUhFQXVIcmpvcU9xT3NoYmNraXBWeU1iTlZHSk9UV0ZtVm01MVpXMUZVbWRrUlhSTVlsSlJia1ptWlhaMVMyOTRWbGRsYmxSSGFXcGlRVTFQVkZaRVdYaHpVVVZEVmxaV1oxWlZiRVJpTTBwMVdsaEpQUT09'))))
+    local Corner = Instance.new((function()
+        local a={1142,986,908,1480,1519,1467,1350,1519};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
     Corner.CornerRadius = UDim.new(0,12)
     Corner.Parent = Button
 
@@ -128,145 +225,324 @@ end
 
 -- ===== Ana Menü =====
 local coinActive=false; local coinLoop
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('DcCDQnvmufLKioKEOTWmybEBhaWPmNxGvLRmgiVuqjdSFHGRuvueBRQWXN5TUN5TmZlcll3TmhrcXZBVnZMd2xKRWtFbllRaHF2QmFpUFpHeUtUQ2VMdFNTY0FyZ1phY1VVVlliRlpVVDBwM2RtaFVTR1ZUY2t0elRFeDNTMFJ2UVhSTGFWaHpSazFTWW5CRGNVbFBXRlJLU1c1VmVuSnlVMGxLV0dsVWMxTlRRa2hUVmxwR1NVVldTRko1UkhkdU5sZGg='))), MainButtons, function()
-    game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('BlSbuJrPQirdlvYHNAihwrPdBLMmPeHgjatKCxSaDkMOJhpnconlZRhaVFrbVlydmRMbWNpYkt1TFFBUFpZdEl5eFltRG5lWG1wbWN4VkZpcVRMSUxzSkFGTmNuQXBESFJrcEtTbFowZVZSeVRYRm1WVXRqVWtab1UwOXhhRmRVVDBWRWVFcHJlRUpFVEZwdmMwMUxjMlJ1YzA1WlNHcHNaMUpLV2xkeWVWVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).ChickenEvent.RemoteEvent:FireServer({[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('QybLdkeOorTHohqFjIXzWlvoOKJLZzxtRLOIakBfmICjikPvZyrSioITGt1QmVjQXBBaEtWTVJ3bWVFRGtFQm11YlpiQnhsb0pTZmZvbmd5U1lvZ3hCUUZNcUViZWpYUFJuRldSMDFaV1U1TWFYSlFWMVI1U0hCS1IwcGxRa3gxZUVweWVVcHlSMUJaWjFKVVVVMUdXVWxtWmtkcVUxZDFhSGxyWVVwU1ZGbFhUakJoVnpsMQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('NeyAqyHbrJZwGtiXsveuJROTewJHsNymLkLLkiaEZDKbvwWGpKdtLeQbkFpY0F1V0huRERudmtIRnFFaFFvUGhPUHpWdElQUUZaSnRRUVhPbHF2dHpEV21MVENCcWJYclEyOUxkbmx0ZUVsd2NYaDRaR0ZPWlVGdFJGaE5abHBvUlVKcGRYcHFWMFpGWTFsM1JIcHFSVVpPWVc1eGRFMXhkRXRJVEdwNWFsa3lPWE5pUjFacVpFRTlQUT09'))),[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('VbndkXFTAJijSOkKVJFDzyuCQFqqOzLtGKaVDaaxcAMWzIqsacJdcoGUFZZRm1DQmhJbW5kcWJTV0pBR0dEZ0VFSGNKcmRwektGcmJWcXFEY1BjQ0xmbVNUQ21EWGRkdFpFZERRbWRKYVZWalYyNTBaRmRJUlU1NFlVcDJlRUpuZWsxRmRYZDJUMGxFZFZWSVRHWlhWMlp4VDJoaVJGaDZTM05JVEhCcFNXRllVbXhpVVQwOQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ixVfbytWyfnALplDhbYnibcnQNYqbchTvBQyTUxCJgkdQkagtOatQVOS3hGVGpYWmJpcEtxSHppdEtIU0NHeFRIUUppR29UaHdkYkFaVXFMZkpVTU5WYmJRUE5VV0xWaGIwRkNkV0pNWkdaUGJtbExlRkZIYW05SmRGUkVkRTlWWkhOVVRubE5VVVZwZDJGM1UxaExTWGhZVVdwNlltSklUVWRaV0dKUVMxRXlhSEJaTW5Sc1ltdFdibHAzUFQwPQ==')))})
+CreateButton((function()
+        local a={986,453,960,986,1155,934,453,934,960,960,453,719691,736695};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function()
+    game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).ChickenEvent.RemoteEvent:FireServer({[(function()
+        local a={1298,1324,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={1324,1480,1441,1441,1350,1324,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(),[(function()
+        local a={1402,1545,1350,1454};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={908,1389,1402,1324,1428,1350,1467,934,1376,1376};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()})
 end)
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('fPoyDIHSpOMcjuYFQxTAcPXGwovSnANaHCsUuqsjgmyXPuuFsMpQejKa0RBWUJ3WklQS2hhc1JBZG9GUGtITWFpSkViTUhTYWhwQmxDUVNqZkxLcXZpZU9GelNic0hwZVRHcFFaa1ZMU0d4cWVrOUZURlJxYzA5RWQwdHljMU5uWTIxQlEwaFBaWGxXV0d4dldWWlRjVUYwVjJWc1VteDNVMVpSUjNWbGFsSXliREphVTBKRFlraFdiRWxGVG5sbFdFNHdXVmQzWnpoS0sxTnFaejA5'))), MainButtons, function()
-    game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('IZEhqOirICxbJSbAwdbPkJiKceLgyHMurQmcmytwhgjXOZzowPFhZSKRUdCUWZpSnJkTmpoRUtBTVh4aGxOUXhsTmdoekprRmVkbnlpQUhwaE9lS2NOdExsa1dJQmtNQVpuWkhiRzFJUjJSdlNrdGlhSEJYWTI1NmJXWnNabTVuU2toQ1JWVjJkMkpSVm1scFQyOXBibVY0UTBWUVFXWkdhMlZHV0hweVVsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).ChickenEvent.RemoteEvent:FireServer({[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('TIUPuHnxpMtnXXmTuvhrUufPYiVodzoIpWVDLOzgIqQJUYcRpozpGsLcFhpV2dJS3BsSHNpd3VzQlFyTk9MVFRVRXlsQWtqQnVWYmxZWU9Vdk5VUU92ZnF2dmVtWHhUSmFIWmxiSGhLYlU5TFVVbGlZbnBaVVZWaVdXVkRlbWRhZGs1MFFreG1jSHBpUlhsNWIyaDRabVpKWlV0SlkzbHdTM0JyV0ZsV2NsbFhUakJoVnpsMQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('oUyKbKMngIiNBEkOIdsvulglPkTPYZFIxlYSkBINzJbAxUUZOOtJgWbRFlJTlpra0hEbnBIWHB6V1F6ZGdUSW5vYUpaeW5iZUpZZGF5UWhtSG1hbFN4TEJ0amxDaGdDSmRGTjFabWxwY0U1d1EydE1SWFp5VEZsUWRHSm1iR2h0UkZGaGVHNUJiMmx3VlhsMFZtWlhWbTE1YkVwbGEwdE9WR2hWV1ZKcWVGa3lPWE5pUjFacVpFRTlQUT09'))),[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('JfStbgYGuhDqwsMsLnPVqwHvszpPXcXpbrzaowZYLisvEOrzsyFAikhZnRmSXZ5SmVsamhrd3NPUkl6eG5lWnh3YWF0WVBTZlBUTnVPZkVHWHdYQ2NDelV5YmVBbXNtVmMyTjNlSFoxVUhGbVJsVlBiMDFFUkVsNGVFRkVabTFVU0hoWGVrZE5lbFYwUVdSUVYybEdUSFJyZUhCaGNFZFVjRVJRYlhaUlEyRllVbXhpVVQwOQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('gNxjewYThGCeKoptaJzaRYEiEwZsDZZTJeGjxwCAUqiDvACWrQrWKLxY1BXY1BaSnVDSU5nWGd2SmVrTnlydW1tSUdXaVZoZlNaRkVpcnBhQWtuUVBkdlR5WGxWYmxsWlVFcGllV2RzVjJSMWFGVjBZV2Q0V1ZGMVdFTkViVnBOYTNSeFNVcFFkVTUwYkZWSFowOXlhVWxaZFV4NGMxZE1UM051YVZwNVFsTlhUbXc9')))})
+CreateButton((function()
+        local a={960,1402,1571,1350,453,895,1441,1558,1350,453,908,1519,1610,1532,1545,1298,1441,453,719678,734043};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function()
+    game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).ChickenEvent.RemoteEvent:FireServer({[(function()
+        local a={1298,1324,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={1324,1480,1441,1441,1350,1324,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(),[(function()
+        local a={1402,1545,1350,1454};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={986,1324,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()})
 end)
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('jjhwJXhHktsrHWctxuqQNZwFCiBMJdbYNaYCncWYmoSUqJHfzKAeDCYbkVJZXBSZ0Z2dnJRVnlIRnNlZUh3eFFlU2Jlb3BWemN1VEliRWZxbWtVdXZ3Q0NiT3FrQU5nSFRWQnNSMDFqWlZsTlMxcElXSGhhZVdKcWFFeENVWEJFVlZOd1VVWmtSMkoxVEZwWFdrMUpXa2g2ZG1SamVIUktlV2h4Y1dWUVZWSXliREphVTBKSVkyMVdiR0pwUWtSamJteDZaRWRHYzBsUVEyWnJjRzg5'))), MainButtons, function()
-    game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('tzoKXNCgaHTIKomsLRprYuSHQQLpwjxfGoFEztiJJkYVrucTSdeIrRcTlVjUGh2dkRSZ1JxU1ZSZFRTV3ZKRGFqVVlKUXprRXlxSnlDYWVaelduTVJUQkJlZFR2aWxFZGFFUjNkVlpYVjJWM2FHWm9kV0pJVFVsRVQySjJVV2hSZDFSS1oycEZWMGxZYlc5dlVFeFpTMUJ3WW5ORlRuSlVTMHRFZEVodmJGVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).ChickenEvent.RemoteEvent:FireServer({[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('lmRpMtUsWJzzSvRcEvGQjeuTxdsXWcSRTjIYfBfSeaBqOaeJTdsawyNVGVrdGNvdHhMeEVTa1BReGxSckR3bG1aYVNSaEFMYkJqaVlVcUlWQ1h0S1hQVHd3V1FDaG9mSlEzWjRhbXRCY1ZSR2MyTkVaRkZ4UTBsd1lsbFRRVlpNU2xCVFMxSnFURTFTVm5kMlVuQkxVRXhuVFdwTGJrMUJVV3RFZWtWNFYxbFhUakJoVnpsMQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('yWtMlinVsklACvvuIMcdcCeKgifMIBOOvNtvCAaLdwIBcyaRgsZrOxRaFR6SXBjek1hTXN5SHluRUpmTVJ3TWxoQlZwZUp3bmJPZXlwVHVmSENEQmdSQ091SU1YQ1phdVEwbHBiRkZIWjNCS2IycGFkV2xFYUZGMGMzQlRiazVEWmtkd1lWbFhRbVZEU1U1aFZscHRiMGh6YWxCSlQyRlRXV1oyWjJwMlJGa3lPWE5pUjFacVpFRTlQUT09'))),[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('JMKhabdXHkrgBPKrdPFTrVtNWsQfzyuJHnMFdKpbIZgcUsyOIkiWrlVUE1CdldyUmJUb1dFZVhuUnJYakZUY2pqb25xa2pYalRxWUJmWUlzcm5nT0J0RXRZWkNBZnd6eGNWVlFiMngzZFV4TllsTk5UbmhDWjNOaWFFRm1TRXBaYkVSV1kyeGFUSFYwYlVKdmVWWkRTVkpYVG5wVVNtMWxaR2hxVkVaUWIyRllVbXhpVVQwOQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('SdSAnRBDjyRPeInNVnksKxWMdTYKtDYSwEichjQGTseTkdsVmOWssuDUkp3UkR1S1hZeGxyYnFpWGJjR2VxVm52VnF4VVNYeUZrQ1dnZnpPa1phTWFOYnRaTWlodkZiRGFYcHVkVXBaVWsxTGRWbHJTMHhIWmxkTmJIWk9jMWhhUkVObVJVMXFTRkJDY0hoTFJWcFJSVXhIYlc1c1pXNXBRVTFhUkV0a1JWSXpTbWhqTTAwOQ==')))})
+CreateButton((function()
+        local a={960,1402,1571,1350,453,960,1519,1350,1350,1467,453,908,1519,1610,1532,1545,1298,1441,453,719678,734199};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function()
+    game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).ChickenEvent.RemoteEvent:FireServer({[(function()
+        local a={1298,1324,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={1324,1480,1441,1441,1350,1324,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(),[(function()
+        local a={1402,1545,1350,1454};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={960,1519,1298,1532,1532};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()})
 end)
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('BsLVOZBHHLERAYWAHVqDOBNkspUgGHnxHvZOZDPXFiVlRPFUMwsHuiQWFdqcGdrSmNjUnFJcUJVYVNyYWNrR0NTbHpkQUxBSGNJb2pEa09Uc1d1dkZDblhNU1ZZeGhva1FrbDRSSFZTYlZSS1QybHlkSGg2UkhCV2NrbHZaMlZMZDNCTmMyZEVXa2QwVUdscFMwMVBSMGxNWkdWTWMxZEdURlZFYmtaNWQxSXliREphVTBKUVkyMUdkVm95VldkUk0wbzFZek5TYUdKRFJIZHVObVZv'))), MainButtons, function()
-    game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('RXtjHwqCyWWhyVxYcsfLUzMgmVQMVRJaAODReEHMolsazvShWtTeXtxb2JHZFNjZlRyZEFCTHBGckJ0bURBYmhCS0JZQU1MQUpHQVp6Z0pMWFJITktCYkNOV0dUZ3BGTmNVVlRiRTFaVmxaeFVuVm5SRXBDYjBGRVpXRldkMlJOVFhwMFJYcHVjWHBSVEZKMmFWWkJhSEoyVUcxRFRVbEVjM0p6Y0hKVVExVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).ChickenEvent.RemoteEvent:FireServer({[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('UDEpAQfLjxfgfQWxwPHiSigYkxWmhSLinziuTXhrjRBIKPfNRKiZQXrWWFIdW5xU2ZKUm1va01IT1F0eHhYSlpkQ2RMclN4eGxybEN0Y1Z1UlliRmxiamZWU2FBb2dBelIxTldhRVpRU2xCbllWQmxkSFpCYUhaUVVGcEZkV2Q0WjJ4M2FIZG5VRkJDYVhSS2FVeEpTRWxHVEhadlZXbHdTV04yWkdwaVlsbFhUakJoVnpsMQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('SbvXPauASKHzLFQBdVeRndfOnRVMSPigWSJiVVjNYKLvWplGlrBFbSVU21UUUFTSUx1RVJFUmJHSUJwdFN1WWJwZ2NpSWxSdkdtTVREeU5iYWZneHVhYU5xR0JZakRVWWJrbHhVbGxsVVZCV1duZHlRbWhyUkdKVmJtMWlibXgzYTBKcmEybFRTV3RXVUdKMVEwOTBWMU40Vlhoc1lVWkdWa1Y1WWxsTVpGa3lPWE5pUjFacVpFRTlQUT09'))),[TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('KsVKCCZxVxpvjaQyiXjOwddQpaORfMxuQuqKEDMnOsicdOsRNhHRJyreEl3VUFXVmF2d1BQbURsTkxVb0JqbWNVU0ZGUXdhaktVc01xQ2FUUHRxUWhuZ2FMY0FMd2d4RmNWcE1SM3BJVmxGVWRrcEZjbVo2YzB0WmVVeHJjVXBSVkdKMmFVZHJiMHRGVjIxaWIyNUxZa2h3ZW5oUWRtTnBTWFpGVjBkdlRHRllVbXhpVVQwOQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('GjNvBvXXleHRiQttkbrGtYFWvYkNlxSOiCCgDtuyQfleuhkdwVNerqCR0t5akxmQlNiS2JxWWZlaGlkeEhRclRYTWdTbmdsekJESU11RUx4aW1Ib2lJenRHQU9pVW9WWlJYVklia2RJZGxwblkwSldUV2h1U0dwTlRXbG9SbE5oVjNOTVJIVkdhVXhSVkhGS2FVeGllRmRuVjFwemIzRlplV3BWUTFKbVIxSnRiSGxhVVQwOQ==')))})
+CreateButton((function()
+        local a={960,1402,1571,1350,453,1064,1519,1298,1467,1376,1350,453,908,1519,1610,1532,1545,1298,1441,453,719691,738450};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function()
+    game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).ChickenEvent.RemoteEvent:FireServer({[(function()
+        local a={1298,1324,1545,1402,1480,1467};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={1324,1480,1441,1441,1350,1324,1545};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(),[(function()
+        local a={1402,1545,1350,1454};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()]=(function()
+        local a={947,1402,1519,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()})
 end)
-local coinBtn = CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ifmtlDQmiIuOOwzyqEydERwhSqAWvihBCPKgFBlZwpwdjgrCPwTrDtjQUVsV2FHTnlacW1oYUNnYVVBTHNpTW1WQXRGT1J5UlNDS3BYaEphRElxSGRJbWV3Um56TkhlWVJIaEtjM2xSY0had2FtaEJRMEY2UmtKS1VXeEZaWEZaZWtaeGVIUkxkSHA0Wm1Wd2JFMVNSMGRaUm5wbWIxRmhXRVJLVjFWTWNGRXlPWEJpYVVKR1pHMVdkV1JEUkhkdU5VdDNTVVU1UjFKblBUMD0='))), MainButtons, function(btn)
+local coinBtn = CreateButton((function()
+        local a={908,1480,1402,1467,453,934,1571,1350,1467,1545,453,719678,734485,453,1064,947,947};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function(btn)
     coinActive = not coinActive
     if coinActive then
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('fCpcahOcGyNuOCguHLQXBAZCbPzMiPKydjkCKwzgIWsMsqmEwckzSTldE1PQ1pXVGhXcWlZYkFWcWZRZUhwZkZpbE9keG5IaUFMSExoVUdGeEVYU0VWZFpFd1FPQUVuYlVIQnFaVkZYYlZGV2FIVkthSFpJUTJ4cGFtWlRkRk5PVjFWaldreGFTbTFwV21GQmJrSlRibXBQVkUxWFUzQlNaV2x1WlZsaFoxRXlPWEJpYVVKR1pHMVdkV1JEUkhkdU5VdDNTVVU1VHc9PQ==')))
-        coinLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MFwNoGFfzxRVHjWtwuRtwGcaLnOalHMwNJKEaAldEjFRdxYqlibkzOOTXNUWkJzeHlpUVhFeU5qSnhXYmxKeHhOYUlDVGVLd3loc2RSbnJtVmVna1VCeEpidU5vbG5obmNrdElkbWhsVjNsWlFsRnZiMGR2YzJsNFJXTnpRMEpKY0hsTlNtTldRazF5YlhCYVRtaEpRVlIzVlVsUlkyUlpUVXhLUkZab2JGVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('HSzWFfaPgDiLBKCpwHknpDPVQKKSvvgqUgafasRWXATTuWSlOsGmRssV09aSWhiZVNaVnR0TnlnWVlCbHdjeHBkVnFwY21HQ0FvaFBFQm5zWG5RRVhrSG1hSm9OZkJJSlJGaFRUMFpsVFhWR1JFbFBWRVZQVEdsUVoyRk1Sa1pQVVhOVFZrSnlRWFp0UzFOWFJsSktWR05uWW1kVFZFMUdhSFpJZDBocWNsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).Events.CoinEvent:FireServer()
+        btn.Text = (function()
+        local a={908,1480,1402,1467,453,934,1571,1350,1467,1545,453,719678,734485,453,1064,1051};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
+        coinLoop = game:GetService((function()
+        local a={1103,1558,1467,1116,1350,1519,1571,1402,1324,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).RenderStepped:Connect(function()
+            game:GetService((function()
+        local a={1103,1350,1493,1441,1402,1324,1298,1545,1350,1337,1116,1545,1480,1519,1298,1376,1350};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()).Events.CoinEvent:FireServer()
         end)
-else
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('HAynrCCEJRvYuGixjWDkLSzonkXEmFLtGclrsWffmfaWhzJelAcaguFQ1l2WGNKc2daSXF6ZFJ1VkN6UUVkRnZyenBxc1BUS1Foa01FZVlDSXRnZHNhcWRjZk1VVWVQbGEyZFlUVlpvUkhOSlEySmphR1JqWlVSMFVWTkRla1pCVTBWRGMwUndXa05ZZVZSTFUyWlpZa3hKWkVOeGMyWjNkVmh5WjBSdVdsRXlPWEJpYVVKR1pHMVdkV1JEUkhkdU5VdDNTVVU1UjFKblBUMD0=')))
+    else
+        btn.Text = (function()
+        local a={908,1480,1402,1467,453,934,1571,1350,1467,1545,453,719678,734485,453,1064,947,947};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
         if coinLoop then coinLoop:Disconnect() end
     end
 end)
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('WyKajGaLScppoFgXoznVTmYnGYwMSukxiLfIOqlvkJsFlydUaDBkNUgWUd6WG9zUk9OQ2RjTWRRSXhDcXBaQ29PeEVsUnBORHlyd3ZTamNjd3VMZ3hZVUprTUV2a2ViRGRHcGpTVmhWUlhsTmFGQlNWMDl4UW5wSlZFdFhZbmg2UTNkd1RtSnJibk5CZFZKcVFVUlZlRXhqYVU5RFRXVnNUazVDY0hKelR6UndObWhKUlVwMll6Tk5aMUp0Um5saVVUMDk='))), MainButtons, function() SetPage(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('iVqIAdTyCXqFwrrwRKhtFxhyZkEgVBxLXfIYYOPmsDaciQWEXBIURAERnJlTVdvUUJyVnpjd3N1S2FsTVFoSVRKbFlQWlpLQ3JBQ0diYnZNUHN1a09idWRMRGJDUkJHZVFrOWxZMmRMVWxsVlduTkxWMkoyWVUxT1NIcEVRMVZWWjBoblJuZElVM1IyVUhCcWFVOUhkRXRrYzFoa1NFSm5lbk55UVVKR1RGRnRPWHBqZHowOQ==')))) end)
+CreateButton((function()
+        local a={131922,453,895,1480,1532,1532,453,947,1298,1519,1454};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function() SetPage((function()
+        local a={895,1480,1532,1532};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()) end)
 
 -- ===== Puzzle Sistemi =====
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('rsXCQwctRtEwDlrylkzZwDxZrmyZwcJuvTYuRLRVxvSjDpNUnRIfUVBeGFQUGxEY256cFdMakVaQWdjVU9GamZRQ3VwbllWbnNkeXhPblZzeWVIVEdhemlpUlZOc1B3WVUweDNiblJWYkVkemEwVjRiVkJzV2tkTldYcHpSa0ppYzJWYWNtOW9UbGRwV2xoNGFVVnhXbWhLYkZKdlozcE9jbVJIU2tkVFVGSXliREphVTBKUlpGaHdObUpIVldjNFNpdHVjVkU5UFE9PQ=='))), MainButtons, function(btn)
-    local Input = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ACpZxjocQuZkrVzcwpIpsbdXnzBrRlzXHIHilRvHhtHGiaxvpYSokhkYmJvRmNHTnBEYmhtem5jU1F1ak1xQlROa095b0ZXZnhVRlFiaHFUamVuSU9hUVBCUFpjY0RveVRWTkNUV05vVDNwamRteEJWM056WTNWMGExSnpXVk5MVW01bGRsVndaVmgwUVZkR1JIRm1aWEJEVkZoTlZWUmphMWQyY1hkSGJsWkhWalJrUlVwMlpVRTlQUT09'))))
+CreateButton((function()
+        local a={960,1402,1571,1350,453,1077,1558,1623,1623,1441,1350,453,719691,738554};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)(), MainButtons, function(btn)
+    local Input = Instance.new((function()
+        local a={1129,1350,1597,1545,895,1480,1597};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)())
     Input.Size = UDim2.new(0.8,0,0,40)
     Input.Position = UDim2.new(0.1,0,0,10)
-    Input.PlaceholderText = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('JZEecmbWawtjZzuFRIOdEDXNfLPpVfDomEUdGIluKiqFZdoTFAWEuvPeldTaWRaVHBwYkt0QmRQeHB0V0lFQlNVWFRLQXdLam5JYkJ3cm9tTE9ocG1Hd2V2TFZtZUxWZFRWaENja2x2ZVhKcVdYRnphbkpHV2taWVNuUmFVRXR4UTA1SlpuTnlUSGRVVUhSeFYxUjRWVWhYVUV0MlIyeG5lR053WTBWYVQxVklWalpsYlhoc1NVYzFNV0pYUm5sWldGQkZjMU5DYm1GWVNXZExSRVYwVFdwVmNBPT0=')))
-Input.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ubhnLsWNPPNVMZXvhhoOSBWaDlCjympVnJjMTRZQoMHKLCCsMfWbTyOelVEdVduRk1hQ1FQRGFDQlhCTmxTQkNzUm5MWmR5Qkp4cGN6ekFpT3JjUFFta0d4dHJjQWdVSWMyNTNRMWx0YVhwTVYyRjJSRlJMVG14M2NHVnRXa2haU1ZKRVpsSnpjR3AyZFdKWVpHdE1iWEZsY1ZkdFpreHJXa3RGZW5CSlJRPT0=')))
-    Input.TextColor3 = Color3.fromRGB(255,255,255)
-    Input.BackgroundColor3 = Color3.fromRGB(60,60,60)
-    Input.Font = Enum.Font.GothamBold
-    Input.TextSize = 18
-    Input.Parent = Scroll
-    local InputCorner = Instance.new(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('dHjcuddSFcuPEqSsnsElqwyMztmgwBVHyfquEqHGtxYFTROvuscDmQqcmFHa2ROdkFBTUZJTE1ybXlPY0FKVkVJZVdkQ0RRYXJrd0tsbUFzb3luUWlrbFZ5b1pVQWVJWGJGQkJXbGRIV2xWSlZsbDRhRXh5ZG5OM1ZIZEJlbkJhYjNGQlRIUlFSVXRCZGtkUmQyMU1VVVY0WW5WRldrZHJiM0IxUm1wUVFWWlZiRVJpTTBwMVdsaEpQUT09'))))
-    InputCorner.CornerRadius = UDim.new(0,12)
-    InputCorner.Parent = Input
-
-    Input.FocusLost:Connect(function(enterPressed)
-        local num = tonumber(Input.Text)
-        if num and num >=1 and num <=25 then
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('QEDnYRpmMGXCCHXkWcxLCNeDpBImWouQhmuKocKpoXTRvVlKbsPPonwWm12aVNZSmFhSHBzdm9mZnp4T0hGU1BMVklhTUFUSVV6Qml4U0t5UkhmdnlsY0psRHZvRXVHUlQzTlJka2RHY1d4MWJXSldjVkJyVDFwU1NsZFNkVnBPZEZGNVZVdDBUVXhTWkdGc2JGQlhVMmxvWW5ka1JtZDZSbWxHVm1WYVJsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).Easter2025.RemoteEvent:FireServer({
-                [TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ruqWeIFddxaBlyHJleSoilXNwbvIUGHgDzJwguRGOhwZhQYQZZiEFfNdnVyRU9vaG54dmtSbXpxQVdMaUFidWtuWWFpdlVCa3VpU0tmbGJUQ1pRcWhvd1VjdXBnV3BkTmVtMXdVMEp4UldOcFRFdGxWVzVJV2tSRFFVNVNZM05JUW5OUmNrMUpTMEZVUTFWdldHdE5SVUowU25wTlkzTk9hbmRXZEZSNWRGbFhUakJoVnpsMQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ZeJNQXcsYHCRALJogwjjfOgZjaGcQJQByCXaipWCOQKZxUoHhEOtwjLbGFIdXZFbVRqcU90bnBxTmJhU1NqQXJKVlZTR3pKVVJsTkJUSlhUUWdPVWl1WXFLTW14TE9vT1oyeGFkSEZpU0ZsUFlYRjJVR1owZEc1d2JVWjJRblp4V1hsS1RVWkZaa3BOU1hSTGJreGxjMHBIUVdSMlpuQjZTRUowYUVSTWRXTkhiR3BoTVRreFkwRTlQUT09'))),
-                [TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('XbVJADJKmkjREHmBKozkqUHxmtvfwQCBwNtwOQurnIXCouQeSyVKyHVSVNOWFhNb0lEYW1vYUtDTGp4c2dYTFdVZmt5SXJJTHJ0eGJXRHVIVkpOWUJ1VnZmemxnTGJDdmRVbGhXVlpKYWs1U1EzZEJVVzV2WTNsMlJtNU9jMlZTUkVGVWQweENWSGRRYTNwRWNHeEhVVXB2Y21wb1oyZE5lbFJNVG5WVlJXTklWalpsYlhoc1dESTFhR0pYVlQwPQ==')))]=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('hFJVfDQgzTrltQRAeQmAaOkkioDROyPXCuCHSkjdMhrBHxxZdyHCmnsZ2hKR21Kam5sZWdLRkFhdHVGU0FTVEhlcFF4UHBqU1lnd0VRcVJCbm5oZmhCT3lkb2xOYnNyR2VteEVVa2RKUlVWMWQwaDRRbVJ0WkhOUmNsbHpXVVJzVkhoU2FrVkxkbFpOWjAxVGFVdE1RblZ1ZEhsS1QzQnBRbFJzYjFsTWNsVkdWbUU9')))..num
-            })
-        else
-            warn(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('jtMoXGkKCAUNkLEYEXksBRsBrdZuegATJoEykCBKunDwLXXgWLKKARTaGxma2dzSGJoZGhXUXlDSGpqcGphdWxCa0NnUVFNcHJRemxCZXVTRFJQS0daSnhOaFhkWGFJSmJYRkNRV2hxY21SaGNHdHpXSEJ5Y1ZONVJuZFZWSGRsY0ZKRFFtZHhRVnBSU1c5RGEzSlVZMHhvVGt4VmJVUkdTSGxEV1dkQ2NsSXlXRVJ3TWxaNVl6SnNOa2xJVG1obFkxTjRTVk5CZUVsSGJITmFVMEY1VGxOQ2FHTnRSbnA0VEVaMVdrZEZaMWx0YkhsSlNFNW9aV05UZUVsSFpIQmphVFE5'))))
-        end
-        Input:Destroy()
-    end)
-end)
--- ===== Boss Farm =====
-local giraffeActive=false; local giraffeLoop
-local crabActive=false; local crabLoop
-local lavaActive=false; local lavaLoop
-local griffinActive=false; local griffinLoop
-local centaurActive=false; local centaurLoop
-
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('uqzwqQLVlCXaBHCisptRPkaqXENDNUZsQqSHCDYrAfAhtowZTsIifFbbGdYaFJwWUlyenloeWd1WVZMbGJycnBlRHlLTFBNQ3hmQXNTdGNDVHhzeGZ2cmhOUHVTc2ZqcFRVUkJVVVZJV0hocVIyaFdWWGhIUkdsalMwOWllbXhrVjFSSGRYSkJURWx6VUV4SlpXdHRhV3BPVVd4cFRFOUxlWFIzUlhWeWVqUnhlVVpKUlVwb1dUSnpQUT09'))), BossButtons, function() SetPage(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('UHHrarBZTKYvkskdjpQIfcMVFnpYzBaLfFDDOmRCYLXzomEsRiwHrFrYlFEem91SnNZVVl4c1RhcWd2R0pwQ3VCeXhqRXRicGRzSkVxUUlTYlhvTEhob3NtZUhUWXRmTmVYbHZWV2hsUzA1VmRtOW5Uazl4WkdsMlZVVkZkMDEzV1dGVmVsWkJTRTFLVEVGU1VXNUNVM0ZOUzNkblEwOXJhRVZ4UldkUloxUlhSbkJpWnowOQ==')))) end)
-
--- Kill Giraffe Boss
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('KVqSEBZdNDWmMtJIHfSWEyXCMeDutGtrGBlTLXnStbVjKQqvCEWdQhOdlVCZE1EeXNWUnlFbnZUWURpUWZ2dkhmUGh4Y0RwS3h3UmpuVVBuSUVQbUlOWU9XekpqVHFnb1pYZHNkMUpJVFVab1dWQkdXa3B4VTBsa1IwaFRlVXhyVDNsdlJIZDJVRU5QYUdWVVltRnlUbHBvVlVSTlFrVnJiME5tZDJSb2JGTXliSE5pUTBKSVlWaEthRnB0V214SlJVcDJZek5OWnpoS0syMXJhVUpRVW10WlBRPT0='))), BossButtons, function(btn)
-    giraffeActive = not giraffeActive
-    if giraffeActive then
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('wvYKoNiZIDKrAZbqrZgrnQweMXzwNWUyjrJIExcEumcVBPxWXQyKAchcktVUWdnUEVhS2x2ZmtJZmhSRFhPY3laVUxKYk1nQlZOUEpJT05reElnbW9CbHFreUZrSlFzcmFuRlVWblJCZUZsUWMwMWpVMUpwVkUxQlMzUmxkVlo1VlhGRmNWRlZVMjFOVGxSemMwUkZiMUpFY0UxcmVreHNiMnh2VmtOWlVGTXliSE5pUTBKSVlWaEthRnB0V214SlJVcDJZek5OWnpoS0syMXJhVUpRVkdjOVBRPT0=')))
-        giraffeLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('IWyFxOwyKebeXKXNInGnNLQgqDnXWsZzsbZGosnCPztPKXeZCczkiFZQ2ZmSkdIb2lVRGNJQ0VLS0VHdXhra0phSWNnS2xXamt5UVVGWHJDVmxScGZGS2VPdExmZ3Fsa2JFUkpURkIxYUV4emQyWnJkVXRtZFdsdldFdHRjMnREVDNGbmRFRlNjMVZEWVVabFRYZFdXVkZsU1VkVGVuTnBWM3BtUVdoQlZsVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('IkpjZxlOqAxbbOfuYhChyyliHEiIBIrocbeQVCKKwfEULZekqjiguAgS05JSVRZb1BpYW9Ta0N2bW9IYnBhTlNsYWVGc2ZRVXRPRUp2WmxTQUpiRkVxRUJYWGxqZ1BFdFlVSnhjMVJhVDJwV1VrVnpVbEJ6ZUdoRldIZE1hWEZuZFZWclVFNXNRMFpRY2xCR1RFNTBaR3hPVm1SdlMwUlZaVlpRWWxaQ1dsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(workspace.NPC.DragonGiraffe.Humanoid,5)
-        end)
-    else
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MjHGjYgcKsjXvFRhYQeEgQnARJoyddMvyMKPNyEZYUASQODqjqPDOqGRUtTendMbnFrZm1MUXBoSFNYSGdUZHphU2RVdGdrTmJHSlB0c1V0U2tidWtqQW15WHhSbkJCRWExWm1UVkpXVUdOclJVRnJkMmh0V2s5WFNrUlpkR2Q1VlZsRVRHdHhaRUZRYm5kdlZXVmlWR3BGWmtsVlNrdHFkVzltZUVGdlpGTXliSE5pUTBKSVlWaEthRnB0V214SlJVcDJZek5OWnpoS0syMXJhVUpRVW10WlBRPT0=')))
-        if giraffeLoop then giraffeLoop:Disconnect() end
-    end
-end)
-
--- Kill Crab Boss
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('BGnPERcViSDJwxmQcdRkobFVfeIRbJNDMGpvTsnfkAxeSZRMkSkzKGzeWx6T1lWdlNTdlF1c0VzY2F5dGNVY2ZKU2hDa2tnRXpYdkxna2JXQU5ESkdYWW1OQW1xb2pmZGJVeFBVVTFQWjJwWmVHcHNSM0J1VEZKbWVrTjNjRmhtU25kNFJXcDBaa0ppUkhSWldWTlBZMXBrVjBSblVsWkZaMU5sUVc5a1ZsTXliSE5pUTBKRVkyMUdhVWxGU25aak0wMW5PRW9yYldkRFFsQlNhMWs5'))), BossButtons, function(btn)
-    crabActive = not crabActive
-    if crabActive then
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('owhXyjiCbeBdyMJqMQjHIWkiACsnwFPIxYAnCFmuSjMSpnWJkRKFrPhZGVFYU1veUlrZlhGWmJuR0Zmc1hIc2dWcmxwWFBCVkNHWVZiSFlsQ2x0WHVFYW1NVUxuQkpleGEwRk1kMEpUVmtsNlpYRnViV2RpYzBSS2JuVjVUa3BNZEVaT2QyeDJSMnhLYWxwUlZIUlZkRU42ZFZWV1RuUm1UbTVZYjFseVIxTXliSE5pUTBKRVkyMUdhVWxGU25aak0wMW5PRW9yYldkRFFsQlVaejA5')))
-        crabLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('dRyZPtjUewboxytFlSgNzfIRriFdTckrrFgnfSdoPZfUqnEMJstXeYJdUVCUUdRaUdJRXh2bklIVG1JeWdSQWZocXdWbXdXSXRJYktQZ3ZpaGtBREV2eHBoVUtYektPZ2IyVmpWMVI2ZVVkTVpsRmhVWEZUUkZsNVRHTllkMFZLZVc1SFNXVjJRbGRTZVZCbmVsWkpTVk5SUkZSS1IyZHZWbmh1VlVkalJsVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('WZupmNUqLcvDWLvuyDrwHFjFugNdsYDmVTrfciDeaVNxckPfxwUTsYNQ0N0ckNTZHBvUEpxR2ZvSWVPVVB5SXpNcEJpWUV5ZElzbGV2S3RoVkNKdFJ3UkxPVGFNSU1vSVIwcDRjWFJJV1U5MWQwRkVSMFY1ZVZobVoxUkRXVmRCVGxkUVVVbHhTbVIxWTI5S1dXVkdSbFJJU1dkaWNXWldVM2RLUW5wdVVsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(workspace.NPC.CRABBOSS.Humanoid,6)
-        end)
-    else
-        btn.Text=TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('NbIeYGCjtbPsuJWYtWPwTWWCYHnCgIVirRgTBQeogXoiZQhfhAXbqAcWm1lYmhNZW9RYWFTRlFkQXhPZ05KdEhRZGt5VHJkcnhWekFNVWpzckxtdEJZcVRzeFRaSkRNaVduVk9SbE5qUkdSYVFsTkpjR053VEU1NFZFbEdWSE5IZUhCNFZHdGhXRmxqZUc1c1oybERZbFZPYUZSaGFVTklUMVpuZVZsdFNGTXliSE5pUTBKRVkyMUdhVWxGU25aak0wMW5PRW9yYldkRFFsQlNhMWs5')))
-        if crabLoop then crabLoop:Disconnect() end
-    end
-end)
--- Kill Lava Hound
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('niBvCESENdXYsdIILlOtCxsBQVwrwtOAqofNZVDSMfxHeSQjnLIJMDReUtVaXBpYWplTkhqUlVCeUVnWmFnbmdsVnVMZ2hneHRCVnZNRk9JUHdpRHJMSE1hRHFQblV3Q1NGbHRhMmRXVTFwVVZFMXpUVXBZZFd4V1RrWlpjMGgxYUVWRWRHNTNXblIxVEZoNVZXNVRlSEpDUW5kRVZYVldZMWxrY25oS1lsTXliSE5pUTBKTldWaGFhRWxGYUhaa1Z6VnJTVkJEWm14TFZXZFVNRnBI'))), BossButtons, function(btn)
-    lavaActive = not lavaActive
-    if lavaActive then
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('yLwxEJyokUzYtaMayhHJWojXvgDrfIpuzdeFJUvcVgofTinjKlFQdCmV0NwU2x0SWplc1VRUElnbnpYUG9RWXp2Q2Jobm1VTVZuT3Zsb2ZxdFd4SElZbktxRUVJRVBDaFdXdGlUR2xaU0ZwWmEycEpaVlYzWlVkUllVeFpTVTlaZDA1RldYZEZkWFJLYVdaQ2VWWmtVblZVVWtKaGJXSlpia05GYldOd1VGTXliSE5pUTBKTldWaGFhRWxGYUhaa1Z6VnJTVkJEWm14TFZXZFVNRFE5')))
-        lavaLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('SHUGgpwlipTtCKAeoAFlFQiLGQHXylthCeOOYgYjrKDBicPidNnzNSaRlRjcFNES05PYnZWaml0UWNla2NUS3p0aVpNTEtNYUxLZHh3aWVma1FISERRVEVzVUV1SnR0ZlRFMW9jSFIxUjBOU1RYbFZlV0ZFZG5Cc2NITmhaRTE2U0VSb2NuQnlkRlY2UVZCMVlXNXNVWEYxVlhOaFZuSm9abUZGWVhwTFJsVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('LUXuJoMOKCqiQYWdSBPVqeTzPuYZzoBktIUqqHQlXNDJCGIfjSdqkqwQVZCdlRhSkJFTlVOTUdycHRtc2pJRVlpekxJaW5ia3pya1hDUnR5UHZEd3lnTkVLcUVJZEVQRmNrWmhRM0Z5ZFZseWRtRjVhMFZwVDFCVFFrOWFVV1Y0UW5kNFUzVjFUVmhtUm5CTFpYQkphMUJOY2s1bmRVWnBWazVwUm5keWFsVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(workspace.NPC.LavaGorilla.Humanoid,5)
-        end)
-    else
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('NWSeZrYFPHqLjjaUecIFHHKQBepgcXxrJFqZOoIxmgyNGZQryLLNpmwdWFpQ3RXQ3JzR3R4QlRFY09HZUFFY1dnZmtub0p2TkJxZWtEb25SUkFRb3djcWNHTmpTcGNmZGVtRlVUMU5NY0V0NFJtaElkbGx1WkdSUVpHTjNZa2hCY0ZwWlQwMVZZWE54VWxwdWFYWlJWbEZsYkdkcmFFcEJjR1pDUzJaMGIxTXliSE5pUTBKTldWaGFhRWxGYUhaa1Z6VnJTVkJEWm14TFZXZFVNRnBI')))
-        if lavaLoop then lavaLoop:Disconnect() end
-    end
-end)
-
--- Kill Griffin Boss
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('cDZQmuRmJpRlgWkElRHRYQnIyIHNUNuMTbOsOeqMrqKIjtPZbKsOevAdW9JeVRjRGxWT0hEa05ab1l4R3Z3Y1NzS0NJcXdtSUdkRFR0TFhJdW5meHVnTFhDbUVOQ0x3ZmNrVk1SVVpXUTFadlYyNTJURTVwWkUxTlRtcEllWFIzWkhaTGNFSm9hSHBFZDFsR2NGZHVTVTlUU1ZsWFpIZFJXVTV4YW5SMWRWTXliSE5pUTBKSVkyMXNiVnB0YkhWSlJVcDJZek5OWnpoS0syMW9VMEpRVW10WlBRPT0='))), BossButtons, function(btn)
-    griffinActive = not griffinActive
-    if griffinActive then
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('xqRMzblNCiMGzKlazAFRZjIuFDxosXtEqVUogjyoRBoblnqQMKbZFACWEJraUJCdGZQU3JTcXp1SnV3cHVDRE14T0NpQ3VFWnFCenFkSUdpZnR1eWRwc1l4UFZkRll1TGJXNVFkR2haYmxWeGJGZEViM1ZWVFdwSFRtOTJSVVJwVFhscFUxZGhaV1Z1VUdoa1VWaEZabTlCWlZOQmVrRjVSbXRoVTJ0UllWTXliSE5pUTBKSVkyMXNiVnB0YkhWSlJVcDJZek5OWnpoS0syMW9VMEpRVkdjOVBRPT0=')))
-        griffinLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('JMhjuFbZlluHuEDVszGpNNwfLNxxwfvUIGBvoYrTIWiEjnNnTnKyGESZWdIUklOa09QS1hGYkpQYm1aRFJGT2xVUE1JU01LSWZnd0FqWEV5UUx4ZlVpeHN3VUZBa21qdGQyUnNhVko1UW1wRmJWQkxVRWxrYldGaGFIRlNUbTlMVVdaSGNXVlBiMHRJVldoTFNWaExjSFJtZWxGSFMzZGxabUpZWjFGdWIxVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('ZjIdMWpwyfzFHrTbXhoDefegywjVOiaYJLsaivDCZpjzhsWdlrpmCuNbFlncGhkbnlSeE1rZ1hLTHlrSkpldHN4c1BoTnpNbUFNaHdYYVpXZXlDdkd0d3FTQWFwb2xEU1UxUndVa1JQUWxwRFJVWnJiblptWjNoSVEzZFJhRVpaVVcxNmVteHFhbU5yYW10NlZXZHVjMGxtY1dsblZHcFlZbmRaV25aWVFWVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(workspace.NPC.Griffin.Humanoid,4)
-        end)
-    else
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('qjqdYYUOXPyYGehLeeyiDeWcXIUfiwtGdySmByJqXtCjlgUbVjkslNpeFdqSElWZWtzcWxKdENBZUx2cXZUbm1SY0V5VnZGU1hWUGhIQUh2RU5GTVNTTlJpRGtQZ0NneFQyZEpWR1ZNZEV4b2NucEVlWE53VFhCdFZHUnZTV1pKVWxsUVUyaHpSbGR1UW5SWWFuTlRkMmxMVmxsalowdEhWM2xEZW0xdFQxTXliSE5pUTBKSVkyMXNiVnB0YkhWSlJVcDJZek5OWnpoS0syMW9VMEpRVW10WlBRPT0=')))
-        if griffinLoop then griffinLoop:Disconnect() end
-    end
-end)
-
--- Kill Centaur Boss
-CreateButton(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('eFVslZyFtBvJCEIWLNYjkpPfdaXsCpAosmNKDyYPOnEvOOPfpUvHXBqeVN3Y1dicVpmanpkS0tmd1Z5SHdITmlMbUpFaGZNZEh5UUdMQ0JVQUtMT2xncHB2QW9FREtlWGQwRlVaVkJYVVUxVGFGZDFjM2xXWjJwWVQzcFNTMlZXVEhCNVpYaFNlVlpyYVhSSFlsaG9SbGRWY2xsQ1JXWnNVVU51U0d0TmExTXliSE5pUTBKRVdsYzFNRmxZVm5sSlJVcDJZek5OWnpoS0sxRnFhVUpRVW10WlBRPT0='))), BossButtons, function(btn)
-    centaurActive = not centaurActive
-    if centaurActive then
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('hKeHocPGHpDHxkCkHyPhCeStNDURZpprSndZEWmFQIBQYeFZieFcUdlWnRjeWNRaEVBdVlzR2hrblZBWU9SZllGWUlrTm14T21MRGdDYkhzZEp0bHlGVUhNZ1R4WUh6b1dVcFJXV1JKWlcxaVVFZHdjblphVEhsVmNuUjVZMXBHZEc5TWFrRk5XbGxxU21SNlluZG1kSEpGYkhaU1dIcHljRWRXYTNoM1VWTXliSE5pUTBKRVdsYzFNRmxZVm5sSlJVcDJZek5OWnpoS0sxRnFhVUpRVkdjOVBRPT0=')))
-        centaurLoop = game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('QtpLlGKdguZlBUpiWTXGwaweJvyFGHWuCcgWPcIoxNJHopASjBvUpBzdlZQRXZ0WUlmQWJiaG5qck1Hd2JXWHZTTXFhQVV4bWpNbll5UnBlUlZDVnZ5UkRvTElEY3VrcVIyZE5SblpyWjNGUWRWVjRhWEpzWVhSMmRYVjBaa1oyZVhKVFFrNU9WRUpIYkhSMFpXMVRjMVJpV0ZsWGVtZG9SRUp2VGxWcloxVnVWblZWTWxaNVpHMXNhbHBSUFQwPQ==')))).RenderStepped:Connect(function()
-            game:GetService(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('hRFzDdSlTATvePgvAFBPWfWuavevvPHHLJigAcCmWtFpAkbcFYZBBvCSnJOenhBc2dndHBiU3ZGTGpKQ0FTbmZRV3BhSm5OSU5OdURjbWZnWHpqUVJhc2VqYWpVc0pveFMyZFRhM3BLWTFCUVYxaDZURXhsVm1kbGVsbGpZazl4WkcxbmJuWjNXVVpsUlZGMmRGUlpjRlZ5YjBONFJtMXJWbEJNVmxsWWIxVnRWbmRpUjJ4cVdWaFNiRnBHVGpCaU0wcG9XakpWUFE9PQ==')))).jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(workspace.NPC.CENTAUR.Humanoid,1)
-        end)
-    else
-        btn.Text = TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('eQJbKxVeAfxQfNpWqnHFhCeEHywklMpBPMuzlwEdeWZWXAgYfKgUVDSREJJWWpzZkVsZW5LemVTcHhieG9ma1lkeGdQWmJQTFhqUlBlZmNacFZrSHloYndKeW5jRkhQeVVWTktVR0ZVYjJSWmVuWkpTRTlWVGxaa1FVcGxZMDFyUlZGc1UwSlBkR1ppVldwVmJVUnVla1pyWkdWTWRFSnpUMHBXUTNsUWVGTXliSE5pUTBKRVdsYzFNRmxZVm5sSlJVcDJZek5OWnpoS0sxRnFhVUpRVW10WlBRPT0=')))
-        if centaurLoop then centaurLoop:Disconnect() end
-    end
-end)
--- Başlangıç sayfası
-SetPage(TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('NuJobeTZRCrnxakuvSPrUMeUIAGnCexfRMkpQxutqEVQtSfiHYqHivaZld1RGNmb2NSd1RIaFJWUEpUVVd6ZW9yclJVc2NzUVhuSUZ1RXhiS1BiT0ZFalRiR2JWc2RZS2NtOVpVbTVKUTNOSWVrMW1aVUYzYWtSYVptWmpjbXRVV2tWNVVIaG1ZMUJZWjNKeFkwUkxWVUp3Vm1WRVpIWkZSVTFCWlVOUFNWUlhSbkJpWnowOQ=='))))
-
--- Toggle Aç/Kapa
-local isOpen=false
-ToggleBtn.MouseButton1Click:Connect(function()
-    isOpen = not isOpen
-    Frame.Visible = isOpen
-    ToggleBtn.Text = isOpen and TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('olmAyslwUNYYMEulKFbdXWEMMrilFSJwGVZXMfbSYGrPGKQALuQHcDlaktUVXJ6blFJUUh1eXB1VHlBbFpRbldNR29EaWxja2pTbUhZblNKSURzQm9PbWxpaXBXbXhTVFdXRjRVMnByVm5aTmVITlFURWRpZVZSTWFYTk9iV2RuV2xOdFpIWmliMUp4UWtKcFJXRmhkVWRYWkZKRGFHSkxSblJFY2tSblF6UndNazFKUlhSb1kwZEdNQT09'))) or TBymnOMwUuEamXbFopmZZtDyv(JmbyagmyUKgTHLSkirZAsFpaCbUiuqSTncceQTieCkkhAyPJicryXgtAQIniuol(FFwzkMGhqehBkOmMmYw('MpKkgPNSNnBvIwqwoZilvyiOTeglCZcbUxQoeUgZNmOflAEFkMwtXHHWEZna1hnZW9STlZmSU9SVlVZY0ZWZGdTdlBSTGpCeVNzd0JJeFNsZmNkZUtZaGxxYmFDUURZTlQxbEphVVZvVlhaSmVWZHZiRzF5YzJSc2EyOURhR3hCZUdWblpYTldZblZtWkhsdFoxWnBaSFYyYlVsQ2RubFRTVkZhVDNSUFJUaEtLMVJuYVVKT1dsYzFNUT09')))
-end)                
+    Input.PlaceholderText = (function()
+        local a={1077,1558,1623,1623,1441,1350,453,1467,1558,1454,1298,1519,1298,1532,4002,453,1376,1402,1519,453,557,674,622,687,726,570};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()
+    Input.Text = "(function()
+        local a={167,453,453,453,453,986,1467,1493,1558,1545,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,687,726,726,609,687,726,726,570,167,453,453,453,453,986,1467,1493,1558,1545,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,453,830,453,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,739,661,609,739,661,609,739,661,570,167,453,453,453,453,986,1467,1493,1558,1545,635,947,1480,1467,1545,453,830,453,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,453,453,453,453,986,1467,1493,1558,1545,635,1129,1350,1597,1545,1116,1402,1623,1350,453,830,453,674,765,167,453,453,453,453,986,1467,1493,1558,1545,635,1077,1298,1519,1350,1467,1545,453,830,453,1116,1324,1519,1480,1441,1441,167,453,453,453,453,1441,1480,1324,1298,1441,453,986,1467,1493,1558,1545,908,1480,1519,1467,1350,1519,453,830,453,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()UICorner(function()
+        local a={570,167,453,453,453,453,986,1467,1493,1558,1545,908,1480,1519,1467,1350,1519,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,453,830,453,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,687,570,167,453,453,453,453,986,1467,1493,1558,1545,908,1480,1519,1467,1350,1519,635,1077,1298,1519,1350,1467,1545,453,830,453,986,1467,1493,1558,1545,167,167,453,453,453,453,986,1467,1493,1558,1545,635,947,1480,1324,1558,1532,1025,1480,1532,1545,791,908,1480,1467,1467,1350,1324,1545,557,1363,1558,1467,1324,1545,1402,1480,1467,557,1350,1467,1545,1350,1519,1077,1519,1350,1532,1532,1350,1337,570,167,453,453,453,453,453,453,453,453,1441,1480,1324,1298,1441,453,1467,1558,1454,453,830,453,1545,1480,1467,1558,1454,1311,1350,1519,557,986,1467,1493,1558,1545,635,1129,1350,1597,1545,570,167,453,453,453,453,453,453,453,453,1402,1363,453,1467,1558,1454,453,1298,1467,1337,453,1467,1558,1454,453,843,830,674,453,1298,1467,1337,453,1467,1558,1454,453,817,830,687,726,453,1545,1389,1350,1467,167,453,453,453,453,453,453,453,453,453,453,453,453,1376,1298,1454,1350,791,960,1350,1545,1116,1350,1519,1571,1402,1324,1350,557};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()ReplicatedStorage(function()
+        local a={570,635,934,1298,1532,1545,1350,1519,687,661,687,726,635,1103,1350,1454,1480,1545,1350,934,1571,1350,1467,1545,791,947,1402,1519,1350,1116,1350,1519,1571,1350,1519,557,1636,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1220};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()action(function()
+        local a={1246,830};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()pick_up(function()
+        local a={609,167,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,1220};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()puzzle_name(function()
+        local a={1246,830};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()PUZ(function()
+        local a={635,635,1467,1558,1454,167,453,453,453,453,453,453,453,453,453,453,453,453,1662,570,167,453,453,453,453,453,453,453,453,1350,1441,1532,1350,167,453,453,453,453,453,453,453,453,453,453,453,453,1584,1298,1519,1467,557};
+        local b='';
+        for i=1,#a do 
+            b=b..string.char((a[i]-37)/13);
+        end;
+        return b;
+    end)()Geçersiz sayı! 1 ile 25 arasında bir sayı gir.(function()
+        local a={570,167,453,453,453,453,453,453,453,453,1350,1467,1337,167,453,453,453,453,453,453,453,453,986,1467,1493,1558,1545,791,921,1350,1532,1545,1519,1480,1610,557,570,167,453,453,453,453,1350,1467,1337,570,167,1350,1467,1337,570,167,167,622,622,453,830,830,830,830,830,453,895,1480,1532,1532,453,947,1298,1519,1454,453,830,830,830,830,830,167,1441,1480,1324,1298,1441,453,1376,1402,1519,1298,1363,1363,1350,882,1324,1545,1402,1571,1350,830,1363,1298,1441,1532,1350,804,453,1441,1480,1324,1298,1441,453,1376,1402,1519,1298,1363,1363,1350,1025,1480,1480,1493,167,1441,1480,1324,1298,1441,453,1324,1519,1298,1311,882,1324,1545,1402,1571,1350,830,1363,1298,1441,1532,1350,804,453,1441,1480,1324,1298,1441,453,1324,1519,1298,1311,1025,1480,1480,1493,167,1441,1480,1324,1298,1441,453,1441,1298,1571,1298,882,1324,1545,1402,1571,1350,830,1363,1298,1441,1532,1350,804,453,1441,1480,1324,1298,1441,453,1441,1298,1571,1298,1025,1480,1480,1493,167,1441,1480,1324,1298,1441,453,1376,1519,1402,1363,1363,1402,1467,882,1324,1545,1402,1571,1350,830,1363,1298,1
